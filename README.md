@@ -17,7 +17,7 @@ A responsive and interactive weather application built with React and Vite that 
 
 ## 🚀 Live Demo
 
-Experience the app live here: [Live_Link](https://eclectic-boba-7c5a79.netlify.app/)
+Experience the app live here: [Live_Weather_Dashboard](https://eclectic-boba-7c5a79.netlify.app/)
 
 
 ## 🛠️ Technologies Used
