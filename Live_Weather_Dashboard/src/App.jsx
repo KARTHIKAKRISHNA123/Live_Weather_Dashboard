@@ -18,7 +18,7 @@ const WeatherDetails = ({icon, temp, city, country, lat, long, humidity, windSpe
   return (
   <>
   <div className="image">
-    <img src={icon} alt="Image" />
+    <img src={icon}  alt="Weather Icon"/>
 
   </div>
   <div className="temp">{temp}°C</div>
@@ -85,7 +85,7 @@ function App() {
   const [long, setLong] = useState(80.2707);
   const [humidity, setHumidity] = useState(0);
   const [windSpeed, setWindSpeed] = useState(0);
-  let api_key = "91fd6582de654a35bac099dc07634381";
+  let api_key = import.meta.env.VITE_API_KEY;
   const [text, setText] = useState("Chennai");
   const [cityNotFound, setCityNotFound] = useState(false);
   const [loading, setLoading] = useState(false);
